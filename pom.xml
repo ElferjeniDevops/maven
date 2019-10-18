@@ -6,7 +6,7 @@
 
   <groupId>fr.uvsq</groupId>
   <artifactId>maven-exemple</artifactId>
-  <version>3.1</version>
+  <version>4.1</version>
 
   <name>maven-exemple</name>
   <!-- FIXME change it to the project's website -->
