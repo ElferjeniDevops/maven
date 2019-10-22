@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+               git 'https://github.com/ElferjeniDevops/maven.git'
             }
         }
     }
