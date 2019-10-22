@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
                git 'https://github.com/ElferjeniDevops/maven.git'
             }
