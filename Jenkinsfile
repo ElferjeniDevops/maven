@@ -1,14 +1,13 @@
 pipeline
    {
-      stages{
-         
-      stage('SCM Checkout') 
-          {
-              
-              
-             echo'hello world'
-          }
-      }
+      agent any
+    stages {
+        stage('Test') {
+            steps {
+               echo "hello" 
+            }
+        }
+    }
    }  
            
      
