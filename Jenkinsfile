@@ -5,7 +5,8 @@ pipeline
       stage('SCM Checkout') 
           {
               
-              git 'https://github.com/ElferjeniDevops/maven'
+              
+             echo'hello world'
           }
       }
    }  
