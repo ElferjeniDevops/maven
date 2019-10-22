@@ -1,15 +1,13 @@
-node
+pipeline
    {
-     stage('SCM Checkout') 
+      stages{
+         
+      stage('SCM Checkout') 
           {
               
               git 'https://github.com/ElferjeniDevops/maven'
           }
-     stage('Compile-package')
-          {
-              
-             sh  "java --version"
-          }
+      }
    }  
            
      
