@@ -10,6 +10,11 @@ node{
                           echo 'Hello, Maven'
                           bat 'mvn --version'
                         }
+             stage('validate') 
+                          { 
+                          echo 'phase de validation de code '
+                          bat 'mvn validate'
+                        }
  }
       
      
