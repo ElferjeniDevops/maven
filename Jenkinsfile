@@ -1,13 +1,15 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Checkout') {
-            steps {
-               git 'https://github.com/ElferjeniDevops/maven.git'
-            }
-        }
-    }
-}
-           
+node{
+             stage('checkout')
+                            {
+                         echo 'Hello, git'
+                         git 'https://github.com/ElferjeniDevops/maven/'
+                        }
+                
+             stage('Example Build') 
+                          { 
+                          echo 'Hello, Maven'
+                          bat 'mvn --version'
+                        }
+ }
+      
      
