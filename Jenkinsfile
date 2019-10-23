@@ -20,7 +20,7 @@ node{
                           echo 'phase de compilation '
                           bat 'mvn compile'
                         }
-             stage('phase de tes') 
+             stage('phase de tesT') 
                           { 
                           echo 'phase de test '
                           bat 'mvn test'
